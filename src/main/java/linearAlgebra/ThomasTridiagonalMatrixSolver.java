@@ -1,4 +1,4 @@
-package LinearAlgebra;
+package linearAlgebra;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;

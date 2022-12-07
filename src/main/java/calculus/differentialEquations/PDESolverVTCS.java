@@ -1,7 +1,7 @@
 package calculus.differentialEquations;
 
-import LinearAlgebra.GaussianMatrixSolver;
-import LinearAlgebra.ThomasTridiagonalMatrixSolver;
+import linearAlgebra.GaussianMatrixSolver;
+import linearAlgebra.ThomasTridiagonalMatrixSolver;
 import types.tuples.Pair;
 
 import java.util.List;

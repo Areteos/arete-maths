@@ -1,6 +1,6 @@
 package calculus.linearAlgebra;
 
-import LinearAlgebra.GaussianMatrixSolver;
+import linearAlgebra.GaussianMatrixSolver;
 import calculus.differentialEquations.PDESolverVTCS;
 import org.junit.jupiter.api.Test;
 

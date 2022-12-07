@@ -1,4 +1,4 @@
-package LinearAlgebra;
+package linearAlgebra;
 
 import java.util.ArrayList;
 import java.util.List;
