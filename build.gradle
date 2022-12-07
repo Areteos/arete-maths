@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+apply plugin: 'java-library'
+
+group 'com.github.areteos'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:23.0.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    implementation project(':arete-utilities')
+    api 'net.jcip:jcip-annotations:1.0'
+
+}
+
+test {
+    useJUnitPlatform()
+}

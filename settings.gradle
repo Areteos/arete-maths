@@ -1,0 +1,5 @@
+rootProject.name = 'arete-maths'
+include ':arete-utilities'
+project(':arete-utilities').projectDir = new File(settingsDir, "../arete-utilities")
+
+
